@@ -5,6 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 public class MemberHibernateUtil {
+
     private static Configuration configuration = new Configuration();
     private static SessionFactory SessionFactory;
 
