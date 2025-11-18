@@ -30,7 +30,7 @@ public class BookContraller {
         bookService.updateBook(book);
     }
 
-    @GetMapping("getAll")
+    @GetMapping("book/getAll")
     public List<Book> getAll(){
         return bookService.getAll();
     }
